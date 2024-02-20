@@ -1,0 +1,31 @@
+CRITICAL - 2023-01-26 08:44:32 --> Undefined variable $rows
+in APPPATH\Views\data_pegawai.php on line 20.
+ 1 APPPATH\Views\data_pegawai.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rows', 'APPPATH\\Views\\data_pegawai.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data_pegawai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('data_pegawai', [], true)
+ 5 APPPATH\Controllers\AppController.php(53): view('data_pegawai')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->data_pegawai()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 08:45:03 --> Undefined variable $rows
+in APPPATH\Views\data_pegawai.php on line 20.
+ 1 APPPATH\Views\data_pegawai.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rows', 'APPPATH\\Views\\data_pegawai.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data_pegawai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('data_pegawai', [], true)
+ 5 APPPATH\Controllers\AppController.php(53): view('data_pegawai')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->data_pegawai()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:06:25 --> syntax error, unexpected token "->"
+in APPPATH\Controllers\AppController.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AppController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AppController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AppController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\AppController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

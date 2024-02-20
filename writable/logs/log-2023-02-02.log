@@ -1,0 +1,11 @@
+CRITICAL - 2023-02-02 09:18:05 --> Undefined variable $row
+in APPPATH\Views\edit_pegawai.php on line 8.
+ 1 APPPATH\Views\edit_pegawai.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\edit_pegawai.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_pegawai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('edit_pegawai', [], true)
+ 5 APPPATH\Controllers\AppController.php(77): view('edit_pegawai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AppController->edit_pegawai('111')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
